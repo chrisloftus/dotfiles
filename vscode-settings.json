@@ -1,0 +1,152 @@
+{
+  "[vue]": {
+    // Default (format when you paste)
+    "editor.formatOnPaste": true,
+    // Default (format when you save)
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "advancedNewFile.exclude": {
+    "node_modules": true,
+    "vendor": true
+  },
+  "atlascode.jira.jqlList": [
+    {
+      "enabled": true,
+      "id": "b9fe6e72-3fba-4c8c-8644-33479f726ff4",
+      "monitor": true,
+      "name": "My yourredcar Issues",
+      "query": "assignee = currentUser() AND resolution = Unresolved ORDER BY lastViewed DESC",
+      "siteId": "76dbc4e8-e37b-4b38-8481-74ab144c21ea"
+    }
+  ],
+  "atlascode.jira.lastCreateSiteAndProject": {
+    "projectKey": "OPS",
+    "siteId": "76dbc4e8-e37b-4b38-8481-74ab144c21ea"
+  },
+  "better-phpunit.docker.command": "docker exec -it autotrader-chrome-extension-laravel.test-1",
+  "better-phpunit.docker.enable": true,
+  "better-phpunit.docker.paths": {
+    "/Users/chris/work/nexus-point/yrc/api/image": "/var/www/code",
+    "/Users/chris/work/nexus-point/yrc/portcullis": "/var/www/code",
+    "/Users/chris/work/nexus-point/yrc/ignite": "/var/www/code",
+    "/Users/chris/work/projects/autotrader-chrome-extension": "/var/www/html"
+  },
+  "better-phpunit.phpunitBinary": "vendor/bin/phpunit",
+  "editor.accessibilitySupport": "off",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.cursorBlinking": "blink",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorStyle": "block",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 13.5,
+  "editor.lineHeight": 30,
+  "editor.minimap.enabled": false,
+  "editor.multiCursorModifier": "alt",
+  "editor.quickSuggestions": {
+    "comments": true
+  },
+  "emmet.includeLanguages": {
+    "twig": "html"
+  },
+  "explorer.openEditors.visible": 0,
+  "extensions.autoUpdate": false,
+  "intelephense.phpdoc.functionTemplate": {
+    "summary": "$1",
+    "tags": [
+      "@param ${1:$SYMBOL_TYPE} $SYMBOL_NAME $2",
+      "@return ${1:$SYMBOL_TYPE} $2"
+    ]
+  },
+  "intelephense.phpdoc.useFullyQualifiedNames": true,
+  "materialTheme.accent": "Indigo",
+  "php-cs-fixer.executablePath": "/usr/local/bin/php-cs-fixer",
+  "php-cs-fixer.lastDownload": 1600878000134,
+  "php.suggest.basic": false,
+  "search.useIgnoreFiles": false,
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1",
+    "CW_NEW_SESSION": "1",
+    "Q_NEW_SESSION": "1"
+  },
+  "workbench.colorCustomizations": {
+    "[Material Theme Ocean High Contrast]": {
+      "activityBar.activeBorder": "#5C6BC0",
+      "activityBarBadge.background": "#5C6BC0",
+      "breadcrumb.activeSelectionForeground": "#5C6BC0",
+      "editor.findMatchBorder": "#5C6BC0",
+      "editorSuggestWidget.highlightForeground": "#5C6BC0",
+      "editorWidget.border": "#5C6BC0",
+      "editorWidget.resizeBorder": "#5C6BC0",
+      "list.activeSelectionForeground": "#5C6BC0",
+      "list.highlightForeground": "#5C6BC0",
+      "list.inactiveSelectionForeground": "#5C6BC0",
+      "menu.selectionForeground": "#5C6BC0",
+      "menubar.selectionForeground": "#5C6BC0",
+      "notificationLink.foreground": "#5C6BC0",
+      "panelTitle.activeBorder": "#5C6BC0",
+      "pickerGroup.foreground": "#5C6BC0",
+      "progressBar.background": "#5C6BC0",
+      "scrollbarSlider.activeBackground": "#5C6BC050",
+      "selection.background": "#5C6BC040",
+      "settings.headerForeground": "#5C6BC0",
+      "settings.modifiedItemIndicator": "#5C6BC0",
+      "statusBarItem.remoteBackground": "#5C6BC0",
+      "tab.activeBorder": "#5C6BC0",
+      "textLink.foreground": "#5C6BC0"
+    }
+  },
+  "workbench.colorTheme": "Material Theme",
+  "workbench.editor.enablePreview": false,
+  "workbench.startupEditor": "none",
+  "yaml.schemas": {
+    "file:///Users/chris/.vscode/extensions/atlassian.atlascode-2.9.1/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "editor.inlineSuggest.enabled": true,
+  "totalTypeScript.hiddenTips": [
+    "variable-type-annotation",
+    "basic-types",
+    "union-type",
+    "typing-function-parameters",
+    "null-keyword",
+    "interface-declaration",
+    "type-alias-declaration",
+    "ts-object-type",
+    "array-type",
+    "passing-generics-to-types",
+    "any-type"
+  ],
+  "totalTypeScript.hideAllTips": false,
+  "totalTypeScript.hideBasicTips": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.scrollback": 10000,
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.lineHeight": 2,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.stickyScroll.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "yaml": false
+  },
+  "namespaceResolver.sort.alphabetically": true,
+}
